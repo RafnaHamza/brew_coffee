@@ -1,0 +1,261 @@
+
+*{
+    color: rgb(179, 117, 56);
+    align-items: center;
+    
+}
+.all{
+    background-color: rgba(252, 227, 202, 0.671);
+}
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(235, 162, 110);
+    width: 100%;
+    height: 80px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    height: 80px ;
+    left: 550px;
+    margin-left: 650px;
+
+}
+
+col{
+    position: absolute;
+    /* margin: 200px; */
+}
+
+.col1 img{
+    width: 40px;
+    height: 40px;
+    align-items: left;
+    /* margin: 60px;     */
+}
+
+.name{
+    font-family: 'Reggae One', cursive;
+    font-size: 50px;
+    color: brown;
+    text-align: start;
+    margin-left: 100px;
+}
+
+
+#p1{
+    background-color: rgb(248, 226, 199);
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.chat{
+    position: sticky;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+#bodypart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cofee{
+    display: flex;
+}
+
+.cofee img{
+    width: 600px;
+}
+
+.box{
+    border: 3px solid;
+    border-color:rgb(153, 88, 24);
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    
+}
+
+#para{
+    font-size: 25px;
+}
+
+#para dd{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* types */
+
+#types{
+    background-color: rgb(235, 216, 191);
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.type p{
+    text-align: justify;
+}
+
+#brand{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.tbrand{
+    display: flex;
+   
+}
+
+.desc{
+    width: 400px;
+    text-align: justify;
+    margin-right: 30px;
+    /* margin-left: 30px; */
+
+} 
+
+.desc h3:hover{
+    cursor: pointer;
+    color: darkred;
+    font-style: oblique;
+}
+
+.para{
+    font-size: 20px;
+}
+
+/* brand image */
+.image{
+    width: 350px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 216, 191);
+}
+
+.gall{
+    text-align: center;
+    width: 80%;
+    background-color: chocolate;
+}
+.gall img{
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+}
+
+.gall img:hover{
+    width: 250px;
+    height: 200px;
+    cursor: pointer;
+
+    /* transition: 0.6s; */
+}
+
+#contact{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    border: 3px solid;
+    border-color:rgb(153, 88, 24);
+    width: 500px;
+    height: 200px;
+    left: 300px;
+    padding: 20px;
+    background-color: chocolate;
+}
+
+.box2 div{
+    margin: 5px;
+}
+
+.box2 div label{
+    color: black;
+}
+
+#send{
+    margin: 30px;
+    background-color:rgb(75, 8, 8);
+}
+
+
+/* fooyter */
+.col img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    /* align-items:flex-start; */
+}
+
+.footer {
+
+    display: flex;
+    margin: 30px;
+    width: 100%;
+    background-color:rgb(173, 80, 14);
+    color: brown;
+    justify-content: space-evenly;
+ }
+
+ .link a{
+    margin-right: 20px;
+ }
+
+ p,a{
+    color:black;
+ }
+
+#foot h2{
+    color: black;
+    text-align: center;
+}
